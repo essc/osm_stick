@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+
+  <enum id="org.gnome.Evince.SizingMode">
+    <value value="0" nick="best-fit"/>
+    <value value="1" nick="fit-width"/>
+    <value value="2" nick="free"/>
+  </enum>
+
+  <schema path="/org/gnome/evince/" id="org.gnome.Evince" gettext-domain="evince">
+    <key type="b" name="override-restrictions">
+      <default>true</default>
+      <summary>Override document restrictions</summary>
+      <description>Override document restrictions, like restriction to copy or to print.</description>
+    </key>
+    <child schema="org.gnome.Evince.Default" name="default"/>
+  </schema>
+
+  <schema path="/org/gnome/evince/default/" id="org.gnome.Evince.Default" gettext-domain="evince">
+    <key type="b" name="show-toolbar">
+      <default>true</default>
+    </key>
+    <key type="b" name="show-sidebar">
+      <default>true</default>
+    </key>
+    <key type="(dd)" name="window-ratio">
+      <default>(0., 0.)</default>
+    </key>
+    <key name="sizing-mode" enum="org.gnome.Evince.SizingMode">
+      <default>'fit-width'</default>
+    </key>
+    <key type="b" name="inverted-colors">
+      <default>false</default>
+    </key>
+    <key type="b" name="continuous">
+      <default>true</default>
+    </key>
+    <key type="b" name="dual-page">
+      <default>false</default>
+    </key>
+    <key type="b" name="fullscreen">
+      <default>false</default>
+    </key>
+    <key type="s" name="sidebar-page">
+      <default>'links'</default>
+    </key>
+    <key type="i" name="sidebar-size">
+      <default>132</default>
+    </key>
+  </schema>
+
+</schemalist>

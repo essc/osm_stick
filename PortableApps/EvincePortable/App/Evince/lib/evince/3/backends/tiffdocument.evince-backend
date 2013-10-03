@@ -1,0 +1,4 @@
+[Evince Backend]
+Module=tiffdocument
+TypeDescription=Tiff Documents
+MimeType=image/tiff;application/x-ext-tiff;application/x-ext-tif
