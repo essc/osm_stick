@@ -5,7 +5,7 @@ MS Windows Portable App [0] USB for OSM Editing.
 
 Portable Apps included:
 ----------------------------
-* JOSM including plugins.
+* JOSM including a few plugins
 * GPSBabel
 * QGIS 2.0 (todo)
 * PDF reader
@@ -34,4 +34,5 @@ How to use
 References
 ------------------------
 [0] http://portableapps.com
+
 [1] https://github.com/essc/osm_stick/
