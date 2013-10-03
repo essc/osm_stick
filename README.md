@@ -26,7 +26,7 @@ How to use
 ![portableappmenu.png](portableappmenu.png)
 
 4. Click on any application to run them.
-5. To run JOSM, select ```jPortal Launcher```.  Choose the ```josm-tested.jar```,
+5. To run JOSM, select ```jPortable Launcher```.  Choose the ```josm-tested.jar```,
    (for example,  at ```g:\PortableApps\JOSM\josm-tested.jar```).
 6. JOSM should start up as usual. 
 
