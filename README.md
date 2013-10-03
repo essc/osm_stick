@@ -18,8 +18,8 @@ Portable Apps included:
 
 How to use
 ---------------------
-1. Download this repo and copy all the contents in a USB flashdisk.
-2. Stick in your USB stick.
+1. Download this repo [1] and extract all the contents in a USB flashdisk.
+2. Stick in your USB flashdisk.
 3. In your file manager, open the USB Flashdisk and click ```g:\Start.exe```.
    The PortableApps menu will appear.
 
@@ -34,3 +34,4 @@ How to use
 References
 ------------------------
 [0] http://portableapps.com
+[1] https://github.com/essc/osm_stick/
