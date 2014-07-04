@@ -1,0 +1,223 @@
+@charset "utf-8";
+body {
+	font-family:Arial,"Trebuchet MS";
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+h3{
+	margin:0;
+	padding:2px;
+	font-size:1.2em;
+}
+h4{
+	margin:0;
+	padding:2px;
+	font-size:1em;
+}
+p{
+	margin:0;
+	padding:3px 0 8px 0;
+}
+img{
+ border:0px;	
+}
+#body_bg{
+ margin:0px;
+ padding:5% 0px;
+ width:100%;	
+}
+#content{
+	width:970px;
+	margin:0px auto;
+	padding:0px;
+	text-align: left;
+}
+.top_tb {		
+	padding:0px;
+	height:168px;
+	margin:0px 0px 20px 0px;
+}
+#ad_show{
+ padding:2px;
+ height:164px;
+}
+#ad_show img{
+ border:0px;
+ 
+}
+.ad_content{
+ padding:0;	
+}
+
+.ad_content h3{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	line-height:18px;
+	margin:0; 
+}
+
+.sub_content {	
+	margin:0px;	
+	padding:0px;	
+}
+
+#content_left{		
+	width:288px;
+	padding:0px;
+
+}
+#content_left_r2{
+	margin:0px 2px 0px 2px;	
+	background-color:#fff;
+	padding:10px;
+}
+.cBox{
+	padding:5px;
+}
+.cBox .btn{
+	background:url(../images/buy_phantom.png) no-repeat;
+	background-position:5px 10px;
+	height:140px;	
+}
+.cBox .btn .text{
+	padding:40px 0px 5px 110px;
+	width:135px;
+	
+}
+
+#content_right{
+ float:right;
+ width:668px;	
+
+}
+
+.sub_content_left{ 
+ float:left;
+ width:299px;
+ height:468px; 
+ padding:8px;
+ line-height:18px;
+}
+.sub_content_left ul{
+	margin:0px;
+	padding:5px 0 5px 30px;
+	
+}
+.sub_content_left p{
+	margin:0;
+	padding:0;
+	line-height:16px;
+}
+
+.sub_content_right{ 
+ float:right;
+ width:299px;
+ height:468px;
+ padding:8px;
+ line-height:18px;
+
+}
+.sub_content_left h3, .sub_content_right h3{
+	margin:0;
+	padding:10px 5px 0px 5px;
+	height:140px;
+}
+
+.sub_content_right ul{
+	margin:0px;
+	padding:5px 0 5px 30px;
+	
+}
+.fg{
+	margin:0px;
+	float:right;	
+	width:3px;
+	height:30px;
+}
+.menu_lefttop{
+	height:27px;	
+	padding:0px;
+	
+}
+.menu_lefttop .title{
+	float:left;
+	width:240px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin:0px;
+	padding:0px 7px;
+	height:27px;
+	line-height:27px;
+}
+.menu_lefttop .right{
+	float:right;
+	width:23px;
+	height:23px;		
+	padding:4px 10px 0px 0px;
+}
+.menu_lefttop a{ 
+ text-decoration:none;
+ 
+}
+.menu_leftcontent{ 
+ padding:0px;
+ width:288px;
+ height:320px;
+}
+.menu_left_mid_content{
+	width:278px;
+	margin:0px 5px;
+	padding:0px;
+}
+.menu_left_mid_content ol{	
+	padding-left:10px;			
+	margin:20px 0 0 0;
+}
+.menu_left_mid_content a{
+	text-decoration:none;
+	color:#222;
+}
+.menu_left_mid_content li{
+	line-height:30px;	
+	list-style:none;
+	padding-left:21px;
+	background-position: left center;	
+}
+.li_classic{
+	background:url("../images/classic-16.png") no-repeat;
+}
+.li_ribbon{
+	background:url("../images/ribbon-16.png") no-repeat;
+}
+.menu_left_mid_content p{
+	margin:0;	
+	line-height:18px;
+	padding-left:10px;
+}
+.menu_left_mid_content p img{
+	vertical-align:middle;
+}
+.s,.nos{
+	cursor:pointer;
+}
+
+html>body .inline_block{
+display:-moz-inline-box;
+display:inline-block;
+}
+.inline_block{position:relative;display:inline-block;cursor:pointer;}
+* html .inline_block{display:inline;}
+*:first-child+html .inline_block{display:inline;}
+* html .button_inner{left:-1px}
+*:first-child+html .button_inner{left:-1px}
+.button{height:24px;margin:0 5px 0 0;background:url(sign_up_bg.gif) repeat-x left top;}
+.button_outer{border-style:solid;border-width:1px 0;}
+.button_inner{border-style:solid;border-width:0 1px;margin:0 -1px;padding:0 4px 0px;}
+.button_inner span{height:24px;margin:3px 0 0;line-height:23px;}
+
+.line15{
+	display:none;
+}

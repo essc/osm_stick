@@ -1,0 +1,11 @@
+﻿<ol id="read_history">
+	<li class="li_ribbon"><a href="C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Outlook\4FQT3B1O\告知函.pdf" title="C:\Users\Administrator\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.Outlook\4FQT3B1O\告知函.pdf">告知函.pdf</a></li>
+	<li class="li_ribbon"><a href="D:\Documents\phantomPDF_分发统计.pdf" title="D:\Documents\phantomPDF_分发统计.pdf">phantomPDF_分发统计.pdf</a></li>
+	<li class="li_ribbon">
+	<a href="D:\Documents\Foxit SalesSystem API - Japan.pdf" title="D:\Documents\Foxit SalesSystem API - Japan.pdf">Foxit SalesSystem API - Japan.pdf</a></li>
+</ol>
+<p>
+<a href="fileDlg.open" title="Open...">
+<img id="fileDlg" src="images/classic-16-open.png" border="0" width="16" height="16" />&nbsp;&nbsp;Open...</a>
+</p>
+ 

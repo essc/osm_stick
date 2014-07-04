@@ -1,0 +1,278 @@
+<STYLE>
+	<VERSION>
+		<AUTHOR>Foxit Reader</AUTHOR>
+		<TYPE>1.0</TYPE>
+		<ID_PREFIX>AQUA</ID_PREFIX>
+	</VERSION>
+	<DESCRIPTION>
+		<NAME>Reader Style</NAME>
+	</DESCRIPTION>
+	<GLOBALS>
+		<FONT>
+			<FACENAME>TAHOMA</FACENAME>
+			<WEIGHT>NORMAL</WEIGHT>
+			<QUALITY>CLEARTYPE</QUALITY>
+		</FONT>
+		<BarText>0, 21, 110</BarText>
+		<BarFace>206, 212, 225</BarFace>
+		<ActiveCaption>198, 218, 247</ActiveCaption>
+		<CaptionText>0, 0, 0</CaptionText>
+		<InactiveCaption>181, 189, 211</InactiveCaption>
+		<InactiveCaptionText>21, 74, 147</InactiveCaptionText>
+		<FloatToolBarBorder>141, 149, 173</FloatToolBarBorder>
+		<BarShadow>177, 187, 198</BarShadow>
+		<BarDkShadow>106, 112, 128</BarDkShadow>
+		<BarLight>218, 223, 234</BarLight>
+		<AutoPremultiply>TRUE</AutoPremultiply>
+		<HighlightGradientDark>247, 192, 91</HighlightGradientDark>
+		<HighlightGradientLight>255, 255, 220</HighlightGradientLight>
+		<HighlightDnGradientDark>247, 218, 124</HighlightDnGradientDark>
+		<HighlightDnGradientLight>232, 127, 8</HighlightDnGradientLight>
+		<HighlightCheckedGradientDark>238, 149, 21</HighlightCheckedGradientDark>
+		<HighlightCheckedGradientLight>251, 230, 148</HighlightCheckedGradientLight>
+		<PressedButtonBorder></PressedButtonBorder>
+		<Highlight>180, 201, 233</Highlight>
+		<HighlightText>0, 0, 0</HighlightText>
+	</GLOBALS>
+	<APPLICATION>
+              <AppBorderColor1> 27,62,159</AppBorderColor1>   （由外向内）
+              <AppBorderColor2> 162,184,248</AppBorderColor2>
+              <AppBorderColor3>76,105,186</AppBorderColor3>
+       </APPLICATION>
+	
+		<TOOLTIP> 
+			<FONT>
+					<FACENAME>TAHOMA</FACENAME>
+					<WEIGHT>NORMAL</WEIGHT> <!--Tooltip字体信息-->
+					<QUALITY>CLEARTYPE</QUALITY>
+			</FONT>
+			<DRAW_SEPARATOR>TRUE</DRAW_SEPARATOR>  <!--Tooltip是否有分割线-->
+			<ROUNDED_CORNERS>TRUE</ROUNDED_CORNERS> <!--Tooltip是否有圆角分-->
+			<COLOR_FILL>255, 255, 255</COLOR_FILL> <!--Tooltip窗口颜色-->
+			<COLOR_FILLGRADIENT>238, 238, 238</COLOR_FILLGRADIENT>
+			<COLOR_TEXT>76, 76, 76</COLOR_TEXT> <!--Tooltip字体颜色-->
+			<COLOR_BORDER>209, 209, 209</COLOR_BORDER> <!--Tooltip分割线颜臿->
+		</TOOLTIP>
+	<CAPTION>
+		<FONT>
+			<FACENAME>TAHOMA</FACENAME>
+			<WEIGHT>NORMAL</WEIGHT>
+			<QUALITY>CLEARTYPE</QUALITY>
+		</FONT>
+		<ActiveStart>62, 62, 62</ActiveStart>
+		<ActiveFinish>47, 48, 48</ActiveFinish>
+		<InactiveStart>153, 153, 153</InactiveStart>
+		<InactiveFinish>146, 146, 146</InactiveFinish>
+		<ActiveText>0, 0, 0</ActiveText>
+		<InactiveText>150, 150, 150</InactiveText>
+		<ActiveTitleText>0, 0, 0</ActiveTitleText>
+		<InactiveTitleText>107, 109, 111</InactiveTitleText>
+		<WindowRegion>FALSE</WindowRegion>
+		<CaptionHeight> 25 </CaptionHeight>
+	</CAPTION>
+	<EDIT>
+		<EditBorder>0, 0, 0</EditBorder> <!--Edit框边框线条颜臿->
+		<EditShadow>190, 190, 190</EditShadow>
+              <EditActiveBorder>121, 121, 121</EditActiveBorder> 
+              <EditActiveShadow>156, 156, 156</EditActiveShadow>
+	</EDIT>
+	<MENU>
+		<ShadowDepth>3</ShadowDepth> <!--Popup menu 阴影效果的强帿->
+		<HighlightHorz>FALSE</HighlightHorz>
+		<MenuBkColor1>255, 255, 255</MenuBkColor1> 
+		<MenuBkColor2>255, 255, 255</MenuBkColor2>
+		<MenuBkDegree>90</MenuBkDegree>
+		<MenuButtonPressColorTopLeft>211,0,0</MenuButtonPressColorTopLeft>
+		<MenuButtonPressColorBottomRight>0,111,0</MenuButtonPressColorBottomRight>
+		<PopupMenuText>0, 0, 0</PopupMenuText>
+		<PopupDisabledText>122, 122, 120</PopupDisabledText>
+		<PopupHighlightText>0, 0, 0</PopupHighlightText>
+		<PopupHighlightDisabledText>0, 0, 0</PopupHighlightDisabledText>
+		<MenuText>0,0,0</MenuText>
+		<MenuHighlightText>0,0,0</MenuHighlightText>
+		<MenuPressedText>0,0,0</MenuPressedText>
+		<MenuDisabledText>122, 122, 120</MenuDisabledText>
+		<MenuButtomSeparator>124,153,219</MenuButtomSeparator>
+	</MENU>
+	<TOOLBARBUTTON>
+	<HighlightButtonBorder1>239, 239, 239</HighlightButtonBorder1>
+       <HighlightButtonBorder2>192, 192, 192</HighlightButtonBorder2> 
+       <ButtonPressTopLeft>137,137,137</ButtonPressTopLeft> 
+       <ButtonPressBottomRight>137,137,137</ButtonPressBottomRight>
+       <ButtonInteriorHightlight1>249, 249, 249</ButtonInteriorHightlight1> 
+       <ButtonInteriorHightlight2>240, 240, 240</ButtonInteriorHightlight2>
+       <ButtonInteriorPress1>173, 173, 172</ButtonInteriorPress1> 
+       <ButtonInteriorPress2>173, 172, 172</ButtonInteriorPress2>
+       <ButtonGroupBorder>173, 173, 172</ButtonGroupBorder> 
+	<ButtonTriang>63,61,61</ButtonTriang>
+	</TOOLBARBUTTON>
+	<BARS>
+		<DOCKBAR>
+			<DockBarPrecent>50</DockBarPrecent>	
+			<IsDockBarHorz>1</IsDockBarHorz> <!--是否水平左右渐变,1为上下渐卿0为左右渐卿->
+			<DockBar1>204, 212, 252 </DockBar1> 
+			<DockBar2>233, 239, 253</DockBar2> 
+			<DockBar3>233, 239, 253</DockBar3> 
+			<DockBar4>233, 239, 253</DockBar4> 
+		</DOCKBAR>
+		<TABBAR>
+			<TabAreaHorz>TRUE</TabAreaHorz>
+			<TabsArea1>225, 233, 254</TabsArea1> <!--TabBar底部一块区域颜色与被选中标签底色相近，给人tab把整文档包裹住的效果，这里就是tabbar下部分的颜色 -->
+			<TabsArea2>223, 231, 252</TabsArea2>
+			<TabsArea3>222, 230, 253</TabsArea3>
+			<TabsArea4>240, 249, 255</TabsArea4>
+			<TabsBorder1>112, 134, 200</TabsBorder1>
+			<TabsBorder2>112, 134, 200</TabsBorder2><!--包裹住的效果区域边框的颜色，要与被选中标签的边框颜色一腿->
+			<TabFrameDark>90, 121, 192</TabFrameDark> <!--TabBar 窗体上边框和右边框的颜色-->
+			<TabText>0, 0, 0</TabText> 
+			<TabActiveText>0, 0, 0</TabActiveText> 
+			<TabBtnBorder>76, 104,186</TabBtnBorder>
+		</TABBAR>
+		<TABTOOLBAR>
+			<TabToolAreaDark>232, 239, 255</TabToolAreaDark>
+			<TabToolAreaLight>227, 234, 253</TabToolAreaLight>
+			<TabTool1>211, 218, 250</TabTool1>
+			<TabTool2>239, 242, 252</TabTool2>
+			<TabTool3>239, 242, 252</TabTool3>
+			<TabTool4>239, 242, 252</TabTool4>
+			<TabFrameColorTopDark>141, 163, 214</TabFrameColorTopDark>			
+			<TabFrameColorTopLight>255, 255, 255</TabFrameColorTopLight>
+			<TabFrameColorBottonDark>255, 255, 255</TabFrameColorBottonDark>
+			<TabFrameColorBottonLight>141, 163, 214</TabFrameColorBottonLight>
+			<TabFrameColorBottonMid>241, 244, 253</TabFrameColorBottonMid>
+			<TabToolPrecent>60</TabToolPrecent>
+			<TabToolHorz>1</TabToolHorz>
+		</TABTOOLBAR>
+		<TABPROPERTY>
+			<TabPropertyAreaDark>238, 241, 251</TabPropertyAreaDark>
+			<TabPropertyAreaLight>238, 241, 251</TabPropertyAreaLight>
+			 <TabPropertyAreaBorder>122, 146, 218</TabPropertyAreaBorder>
+                   <TabPropertyAreaBottom>205, 229, 239</TabPropertyAreaBottom>
+		</TABPROPERTY>
+		<TOOLBAR>
+			<SeparatorBorder>141, 163, 214</SeparatorBorder> <!--ToolBar 分割縿->
+			<SeparatorShadow>255, 255, 255</SeparatorShadow> <!--ToolBar 分割縿->
+			<FloatBorderOutHorz>TRUE</FloatBorderOutHorz>
+			<FloatBorderOut1>18, 57, 168</FloatBorderOut1><!--FloatToolBar外框线由两条组成，两条都可以渐变 -->
+			<FloatBorderOut2>18, 57, 168</FloatBorderOut2><!--大多数时候这两条线与miniframe的一枿->
+			<FloatBorderInHorz>TRUE</FloatBorderInHorz>
+			<FloatBorderIn1>255, 255, 255</FloatBorderIn1>
+			<FloatBorderIn2>18, 57, 168</FloatBorderIn2>
+		</TOOLBAR>
+		<POPUPBAR>
+		</POPUPBAR>
+		<STATUSBAR>
+		</STATUSBAR>
+		<SCROLLBAR>
+			<OwnerDrawScrollBar>TRUE</OwnerDrawScrollBar>	
+		</SCROLLBAR>
+		<CAPTIONBAR>
+			<CaptionBarColor1>227, 226, 229</CaptionBarColor1>
+			<CaptionBarColor2>227, 226, 229</CaptionBarColor2>
+			<CaptionBarBorder>0,255,0</CaptionBarBorder>
+			<CaptionBarTextColor>0,0,0</CaptionBarTextColor>
+			<CaptionBarBtnColor1>255,0,255</CaptionBarBtnColor1>
+			<CaptionBarBtnColor2>0,255,255</CaptionBarBtnColor2>
+			<CaptionBarBtnBorder>0,0,0</CaptionBarBtnBorder>
+			<CaptionBarHorz>1</CapionBarHorz>
+		</CAPTIONBAR>
+		<CAPTIONBUTTON>
+			<HighlightColor>223,231,252 </HighlightColor>
+			<PressedColor>223,231,252 </PressedColor>
+			<HighlightColorBorder>128,149,211</HighlightColorBorder>
+			<PressedColorBorder>128,149,211</PressedColorBorder>
+		</CAPTIONBUTTON>
+	</BARS>
+	<TABS>
+		<TextColorActive>0, 21, 110</TextColorActive>
+		<TextColorInactive>0, 21, 110</TextColorInactive>
+		<FLAT>
+			<Black>136, 157, 194</Black>
+			<Highlight>166, 175, 195</Highlight>
+			<BUTTON>
+				<SIZE>24, 15</SIZE>
+				<CORNERS>4, 4, 0, 6</CORNERS>
+			</BUTTON>
+			<BorderInnerNormal>240, 242, 246</BorderInnerNormal>
+			<BorderInnerActive>240, 242, 246</BorderInnerActive>
+			<BorderOuterNormal>136, 157, 194</BorderOuterNormal>
+			<BorderOuterActive>136, 157, 194</BorderOuterActive>
+		</FLAT>
+	</TABS>
+	<MINIFRAME>
+		<CaptionHorz>TRUE</CaptionHorz>
+		<Caption1>232, 239, 254</Caption1> <!--miniFrame 上title 区域的颜臿->
+		<Caption2>145, 178, 248</Caption2>
+		<Text>0, 0, 0</Text>  <!--miniFrame 文本 的颜臿->
+		<TitleBorder>114, 137, 203</TitleBorder> <!--miniFrame 中Title与现实区域的凹凸縿->
+		<TitleShadow>255, 255, 255</TitleShadow>
+		<BorderOutHorz>TRUE</BorderOutHorz>
+		<BorderOut1>18, 57, 168</BorderOut1><!--miniFrame 外框线由两条组成，两条都可以渐变 -->
+		<BorderOut2>18, 57, 168</BorderOut2>
+		<BorderInHorz>TRUE</BorderInHorz>
+		<BorderIn1>165, 165, 165</BorderIn1>
+		<BorderIn2>255, 255, 255</BorderIn2>
+	</MINIFRAME>
+	<SLIDER>
+		<SliderFill>224,232,253 </SliderFill> <!--可拖动的边框颜色-->
+		<SliderBorder>128,149,211</SliderBorder>
+	</SLIDER>
+	<PANEL>
+		<ControlBarCaptionBorder>128, 149, 211</ControlBarCaptionBorder> <!--Panel title 与现实内容下的分割线-->
+		<ControlBarCaptionShadow>209, 217, 253</ControlBarCaptionShadow>
+		<ControlBarCaptionBorder1>208, 216, 251</ControlBarCaptionBorder1> <!--Panel title 与现实内容下的分割线-->
+		<ControlBarCaptionShadow1>166, 180, 221</ControlBarCaptionShadow1>
+		<PanelTitleBarHorz>TRUE</PanelTitleBarHorz>
+		<ControlBarCaption1>206, 214,249</ControlBarCaption1> <!--Panel title颜色-->
+		<ControlBarCaption2>212, 219, 250</ControlBarCaption2>
+		<PanelToolbarHorz>TRUE</PanelToolbarHorz>
+		<PanelToolbar>239, 241, 254</PanelToolbar> <!--Panel 内toolbar 颜色-->
+		<PanelTabsHorz>TRUE</PanelTabsHorz><!--Panel上被选中Tab的渐变方县->
+		<PanelTabsRect1>255, 255, 255</PanelTabsRect1><!--Panel上被选中Tab的颜臿->
+		<PanelTabsRect2>255, 255, 255</PanelTabsRect2>
+		<PanelText>0, 0, 0</PanelText>
+		<PanelActiveText>0, 0, 0</PanelActiveText>
+		<TabsAreaHorz>FALSE</TabsAreaHorz>
+		<TabsArea1>239, 241, 254</TabsArea1><!--Panel 上TabBar 颜色-->
+		<TabsArea2>239, 241, 254</TabsArea2>
+		<TabBorder>166, 180, 221</TabBorder><!--Panel TabBar 内被选中tab的外围凹凸线-->
+		<TabShadow>250, 250, 250</TabShadow> 
+	</PANEL>
+	<DIALOG>
+		<BackGround>238, 241, 251</BackGround>
+	</DIALOG>
+	<SPLITTERWND>
+		<BackGround>206, 214,249</BackGround>
+		<SplitterBorder>73, 104, 175</SplitterBorder>
+	</SPLITTERWND>
+	<TABCTRL>
+		<TabCtrlLight>255,255,255</TabCtrlLight>
+		<TabCtrlDark>218, 218, 218</TabCtrlDark>
+		<TabCtrlTextLight>0,0,0</TabCtrlTextLight>
+		<TabCtrlTextDark>0,0,0</TabCtrlTextDark>
+	</TABCTRL>
+	<MDICLIENTAREA>
+		<MDIClientArea1>120,120,120</MDIClientArea1>
+		<MDIClientArea2>120,120,120</MDIClientArea2>
+		<MDIClientArea3>120,120,120</MDIClientArea3>
+		<MDIClientArea4>120,120,120</MDIClientArea4>
+		<HorzMDIClientArea>FALSE</HorzMDIClientArea>
+		<MDIClientAreaDegree>70</MDIClientAreaDegree>
+	</MDICLIENTAREA>
+	<DOCMESSAGEWND>
+		<DocMessageColor1>27,62,159</DocMessageColor1>
+		<DocMessageColor2>27,62,159</DocMessageColor2>
+		<HorzDocMessageColor>FALSE</HorzDocMessageColor>
+		<DocMessageFontColor>255,255,255</DocMessageFontColor>
+	</DOCMESSAGEWND>
+	<PAGEVIEW>
+		<BackGround>156,156,156</BackGround>
+	</PAGEVIEW>
+<PROGRESSCTRL>
+		<ProgressStartColor>255,138,0 </ProgressStartColor>
+		<ProgressEndColor>255,138,0</ProgressEndColor>
+		<ProgressBkColor> 192,192,192</ProgressBkColor>>
+		<ProgressTextColor>0,0,0</ProgressTextColor>
+	</PROGRESSCTRL>
+</STYLE>
+

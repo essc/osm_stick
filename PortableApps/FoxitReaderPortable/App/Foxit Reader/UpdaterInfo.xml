@@ -1,0 +1,14 @@
+<updater_info>
+	<module name="Foxit Spell Check Language" version="2.1.0.426">
+		<file path="FoxitReaderPathToReplace\lex\accent.tlx"/>
+		<file path="FoxitReaderPathToReplace\lex\correct.tlx"/>
+		<file path="FoxitReaderPathToReplace\lex\ssceam.tlx"/>
+		<file path="FoxitReaderPathToReplace\lex\ssceam2.clx"/>
+		<file path="FoxitReaderPathToReplace\lex\sscebr.tlx"/>
+		<file path="FoxitReaderPathToReplace\lex\sscebr2.clx"/>
+		<file path="FoxitReaderPathToReplace\lex\ssceca.tlx"/>
+		<file path="FoxitReaderPathToReplace\lex\ssceca2.clx"/>
+		<file path="FoxitReaderPathToReplace\lex\tech.tlx"/>
+		<file path="FoxitReaderPathToReplace\lex\userdic.tlx"/>
+	</module>
+	<module name="Foxit Cloud" version="1.3.99.311"><file path="FoxitReaderPathToReplace\Foxit Cloud\FoxitCloud.fpi"/></module></updater_info>

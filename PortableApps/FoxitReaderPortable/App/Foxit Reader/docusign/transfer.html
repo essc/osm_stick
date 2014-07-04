@@ -1,0 +1,69 @@
+<html>
+<head>
+
+<script language = 'javascript'>
+
+var slow_msg = "The Internet is very slow, but we'll keep trying...";
+var big_file_msg = "For large documents, consider uploading only pages that require signatures."
+var pdf_editing_msg = "Feel free to read or edit other PDFs while you wait."
+var slow_time = 10000;
+var big_file_time = 15000;
+var pdf_editing_time = 15000;
+var final_slow_time = 20000;
+
+setTimeout(setSlow, slow_time);
+
+
+function setSlow()
+{
+   
+   var msg = document.getElementById("message");
+   msg.innerHTML = slow_msg;
+   setTimeout(setPDFEditing, pdf_editing_time);
+
+  
+   
+
+}
+
+function setBigFile()
+{
+
+   var msg = document.getElementById("message");
+   msg.innerHTML = big_file_msg;
+
+   setTimeout(setFinalSlow, final_slow_time);
+}
+
+function setPDFEditing()
+{
+
+   var msg = document.getElementById("message");
+   msg.innerHTML = pdf_editing_msg;
+   setTimeout(setBigFile, pdf_editing_time);
+
+}
+
+function setFinalSlow()
+{
+
+   var msg = document.getElementById("message");
+   msg.innerHTML = slow_msg;
+
+}
+
+</script>
+
+</head>
+<body>
+<table width=100% height=100%>
+<tr>
+<td style="text-align: center; vertical-align: middle;">
+<font face="verdana">Uploading...</font><br/><br/>
+<img src='progress_bar.gif' width = '25% ' height = '15px'/>
+<br/><br/><font face="verdana" size=2 id = 'message'> </font>
+</td>
+</tr>
+</table>
+</body>
+</html>

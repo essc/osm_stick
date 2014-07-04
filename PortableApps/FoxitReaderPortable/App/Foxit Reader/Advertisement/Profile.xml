@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Advertise Version="1.3">
+	<Support
+	language="english"
+	/>
+	<Item
+	FileName="normal create pdf from scanner documents.bmp"
+	URL="http://us-request.foxitservice.com/ad/redirect.php?url=www.foxitsoftware.com/products/phantomPDF/"
+	Tip="Convert hardcopy to PDF, OCR to make content selectable and searchable"
+	/>
+	<Item
+	FileName="normal Edit and reflow paragraphs in PDF files.bmp"
+	URL="http://us-request.foxitservice.com/ad/redirect.php?url=www.foxitsoftware.com/products/phantomPDF/"
+	Tip="Modify the content of your PDF files"
+	/>
+	<Item
+	FileName="normal Create PDF from Office-convert PDF to office.bmp"
+	URL="http://us-request.foxitservice.com/ad/redirect.php?url=www.foxitsoftware.com/products/phantomPDF/"
+	Tip="Easily share content between your applications"
+	/>
+	<Item
+	FileName="normal Design form fields easily.bmp"
+	URL="http://us-request.foxitservice.com/ad/redirect.php?url=www.foxitsoftware.com/products/phantomPDF/"
+	Tip="Recognize form fields automatically, easy to use form design assistant"
+	/>
+	<Item
+	FileName="normal Protect your PDF files with AD RMS.bmp"
+	URL="http://us-request.foxitservice.com/ad/redirect.php?url=www.foxitsoftware.com/products/phantomPDF/"
+	Tip="Extend Active Directory Rights Management Services to PDF"
+	/>
+	<Item
+	FileName="normal Enterprise PDF Reader.bmp"
+	URL="http://www.foxitsoftware.com/Secure_PDF_Reader/enterprise.php"
+	Tip="Meets the PDF viewing and deployment needs of large organizations"
+	/>
+	<Item
+	FileName="normal Fastest PDF Search and Index.bmp"
+	URL="http://us-request.foxitservice.com/ad/redirect.php?url=www.foxitsoftware.com/products/ifilter/"
+	Tip="Find PDFs quick and easily on desktop and server systems"
+	/>
+	<Item
+	FileName="normal Integrate PDF into your application.bmp"
+	URL="http://us-request.foxitservice.com/ad/redirect.php?url=www.foxitsoftware.com/products/sdk/"
+	Tip="Integrate powerful PDF into your applications with the Foxit PDF SDK"
+	/>
+	<Item
+	FileName="normal Integrate PDF into your mobile apps.bmp"
+	URL="http://us-request.foxitservice.com/ad/redirect.php?url=www.foxitsoftware.com/products/sdk/"
+	Tip="Integrate powerful PDF into your mobile apps with the Foxit PDF SDK"
+	/>
+	<Item
+	FileName="normal View PDFs on mobile devices.bmp"
+	URL="http://www.foxitsoftware.com/products/mobilereader/"
+	Tip="Read and annotate PDFs on your Android and iPad devices"
+	/>
+	<Item
+	FileName="normal Protect Sensitive PDF Documents.bmp"
+	URL="http://us-request.foxitservice.com/ad/redirect.php?url=www.foxitsoftware.com/products/rms/"
+	Tip="Extend Active Directory Rights Management Services to PDF"
+	/>
+	<Item
+	FileName="normal Powerful Word Processor.bmp"
+	URL="http://us-request.foxitservice.com/ad/redirect.php?url=www.kingsoftstore.com%2Fwriter.html%3Ffoxit"
+	Tip="Download Kingsoft Writer professional 2012"
+	/>
+	<Item
+	FileName="normal View and annotate PDFs.bmp"
+	URL="http://itunes.apple.com/app/foxit-mobile-pdf/id507040546?mt=8"
+	Tip="Fast and clear PDF rendering, easy to use a full annotation tool set."
+	/>
+</Advertise>

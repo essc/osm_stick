@@ -22,7 +22,7 @@
 !define PORTABLEAPPNAME "Mozilla Firefox, Portable Edition"
 !define APPNAME "Firefox"
 !define NAME "FirefoxPortable"
-!define VER "1.7.8.0"
+!define VER "1.7.9.0"
 !define WEBSITE "PortableApps.com/FirefoxPortable"
 !define DEFAULTEXE "firefox.exe"
 !define DEFAULTAPPDIR "firefox"
@@ -482,6 +482,7 @@ Section "Main"
 		
 		StrCmp $SECONDARYLAUNCH "true" StartProgramAndExit
 		StrCmp $WAITFORPROGRAM "true" "" StartProgramAndExit
+		SetOutPath $PROGRAMDIRECTORY
 		ExecWait $EXECSTRING
 
 	CheckRunning:
@@ -491,6 +492,7 @@ Section "Main"
 		StrCmp $R0 "1" CheckRunning CleanupRunLocally
 	
 	StartProgramAndExit:
+		SetOutPath $PROGRAMDIRECTORY
 		Exec $EXECSTRING
 		Goto TheEnd
 	

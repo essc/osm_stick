@@ -13,6 +13,8 @@ Var InstallerCustomJavaPluginDisabled
 	Pop $R0
 	ExecDOS::exec '"$INSTDIR\bin\unpack200.exe" -r -q "$INSTDIR\lib\javaws.pack" "$INSTDIR\lib\javaws.jar"' "" ""
 	Pop $R0
+	ExecDOS::exec '"$INSTDIR\bin\unpack200.exe" -r -q "$INSTDIR\lib\jfxrt.pack" "$INSTDIR\lib\jfxrt.jar"' "" ""
+	Pop $R0
 	ExecDOS::exec '"$INSTDIR\bin\unpack200.exe" -r -q "$INSTDIR\lib\jsse.pack" "$INSTDIR\lib\jsse.jar"' "" ""
 	Pop $R0
 	ExecDOS::exec '"$INSTDIR\bin\unpack200.exe" -r -q "$INSTDIR\lib\plugin.pack" "$INSTDIR\lib\plugin.jar"' "" ""

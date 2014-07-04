@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DefaultPluginsList version="1">
+	<Plugin Name="FoxitInnerPluginFoxitUpdater"
+		FriendlyName="FoxitInnerPluginFoxitUpdater"
+		Description=""
+		PIPath="Updater.fpi"
+		LoadBehavior="0"
+		MinVersion="6.2.0.424"
+	/>
+
+	<Plugin Name="FoxitInnerPluginCommentsSummary"
+		FriendlyName="FoxitInnerPluginCommentsSummary"
+		Description=""
+		PIPath="CommentsSummary.fpi"
+		LoadBehavior="3"
+		MinVersion="1.0.0.913"
+	/>
+
+	<Plugin Name="FoxitInnerPluginDocuSign"
+		FriendlyName="FoxitInnerPluginDocuSign"
+		Description=""
+		PIPath="docusign_plugin.fpi"
+		LoadBehavior="3"
+		MinVersion="6.2.0.422"
+	/>
+
+	<Plugin Name="FoxitInnerPluginfacebook"
+		FriendlyName="FoxitInnerPluginfacebook"
+		Description=""
+		PIPath="facebook_plugin.fpi"
+		LoadBehavior="3"
+		MinVersion="2.0.2.414"
+	/>
+
+	<Plugin Name="FileOpen"
+		FriendlyName="FileOpen"
+		Description=""
+		PIPath="FileOpen.fpi"
+		LoadBehavior="3"
+		MinVersion="6.2.0.414"
+	/>
+
+  	<Plugin Name="FoxitInnerPluginFoxitRMS_V2"
+		FriendlyName="FoxitInnerPluginFoxitRMS_V2"
+		Description=""
+		PIPath="FRMSPlgV2.fpi"
+		LoadBehavior="3"
+		MinVersion="3.2.1.414"
+	/>
+
+	<Plugin Name="FoxitInnerPluginIntegrateWithSP"
+		FriendlyName="FoxitInnerPluginIntegrateWithSP"
+		Description=""
+		PIPath="IntegrateWithSP.fpi"
+		LoadBehavior="3"
+		MinVersion="2.1.0.414"
+	/>
+
+	<Plugin Name="FoxitInnerPluginReadOutLoud"
+		FriendlyName="FoxitInnerPluginReadOutLoud"
+		Description=""
+		PIPath="Speech.fpi"
+		LoadBehavior="3"
+		MinVersion="1.1.1.409"
+	/>
+</DefaultPluginsList>
